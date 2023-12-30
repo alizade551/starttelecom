@@ -1,0 +1,177 @@
+.card.custom-card {
+    border-radius: 0;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 0 0.125rem 0 rgba(10,10,10,.04);
+    position: relative;
+    margin-block-end: 10px;
+    width: 100%;
+}
+.card.custom-card .card-body {
+    padding: 1.25rem;
+}
+
+.avatar.avatar-md {
+    position: relative;
+    height: 2.625rem;
+    width: 2.625rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-weight: 500;
+}
+.ms-3 {
+    margin-left: 1rem!important;
+}
+#chart-2{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card.custom-card .card-header {
+    padding: 1rem 1.25rem;
+    background-color: transparent!important;
+    border-block-end: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+}
+.card.custom-card .card-header .card-title {
+    position: relative;
+    margin-block-end: 0;
+    font-size: .9375rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+/*
+    ==================
+        Transaction
+    ==================
+*/
+
+.transactions .widget-heading {
+    display: flex;
+    margin-bottom: 31px;
+    justify-content: space-between;
+}
+.transactions .widget-heading .task-action .dropdown-toggle svg {
+    color: #888ea8;
+    width: 19px;
+    height: 19px;
+}
+.transactions .widget-heading .task-action .dropdown-menu {
+    transform: translate3d(-141px, c0, 0px);
+}
+.transactions .transactions-list {
+    border-radius: 6px;
+}
+.transactions .transactions-list:not(:last-child) {
+    margin-bottom: 22.2px;
+}
+.transactions .transactions-list .t-item {
+    display: flex;
+    justify-content: space-between;
+}
+.transactions .transactions-list .t-item .t-company-name {
+    display: flex;
+}
+.transactions .transactions-list .t-item .t-icon {
+    margin-right: 12px;
+}
+.transactions .transactions-list .t-item .t-icon .avatar {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;   
+}
+.transactions .transactions-list .t-item .t-icon .avatar .avatar-title {
+    border-radius: 12px;
+    position: relative;
+    border-radius: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+    width: 42px;
+    background-color: rgb(255, 225, 226);
+    color: #e7515a;
+}
+.transactions .transactions-list.t-info .t-item .t-icon .avatar .avatar-title {
+    background-color: rgb(186, 231, 255);
+    color: #2196f3;
+}
+.transactions .transactions-list.t-secondary .t-item .t-icon .icon {
+    background-color: rgb(220, 207, 247);
+}
+.transactions .transactions-list.t-secondary .t-item .t-icon .icon svg {
+    color: #805dca;
+}
+.transactions .transactions-list .t-item .t-icon .icon {
+    position: relative;
+    background-color: rgb(255, 236, 203);
+    border-radius: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+    width: 42px;
+}
+.transactions .transactions-list .t-item .t-icon .icon svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 19px;
+    height: 19px;
+    color: #e2a03f;
+    stroke-width: 2;
+}
+.transactions .transactions-list .t-item .t-name {
+    align-self: center;
+}
+.transactions .transactions-list .t-item .t-name h4 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0;
+    transition: all 0.5s ease;
+}
+.transactions .transactions-list:hover .t-item .t-name h4 {
+    color: #2196f3;
+}
+.transactions .transactions-list .t-item .t-name .meta-date {
+    font-size: 12px;
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #888ea8;
+}
+.transactions .transactions-list .t-item .t-rate {
+    align-self: center;
+}
+.transactions .transactions-list .t-item .t-rate p {
+    margin-bottom: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.transactions .transactions-list .t-item .t-rate svg {
+    width: 14px;
+    height: 14px;
+    vertical-align: baseline;
+}
+.transactions .transactions-list .t-item .t-rate.rate-inc p {
+    color: #009688;
+}
+.transactions .transactions-list .t-item .t-rate.rate-dec p {
+    color: #e7515a;
+}
+.widget .transactions-container {
+    height: 400px;
+    overflow-y: auto;
+    padding-right: 30px;
+}
+

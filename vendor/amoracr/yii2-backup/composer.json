@@ -1,0 +1,66 @@
+{
+    "name": "amoracr/yii2-backup",
+    "description": "Component for creating backups of Yii2 sites.",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension",
+        "backup",
+        "dump"
+    ],
+    "homepage": "https://github.com/amoracr/yii2-backup",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alonso Mora",
+            "email": "alonso.mora@gmail.com",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "email": "alonso.mora@gmail.com",
+        "issues": "https://github.com/amoracr/yii2-backup/issues",
+        "source": "https://github.com/amoracr/yii2-backup"
+    },
+    "funding": [        
+        {
+            "type": "paypal",
+            "url": "https://paypal.me/adelfunscr"
+        }
+    ],
+    "prefer-stable": true,
+    "require": {
+        "php": "^5.1 || ^7.0 || ^8.0",
+        "ext-phar": "*",
+        "ext-pdo": "*",
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "require-dev": {
+        "ext-mysqli": "*",
+        "ext-sqlite3": "*",
+        "ext-pgsql": "*",
+        "ext-bz2": "*",
+        "ext-zip": "*",
+        "ext-zlib": "*",
+        "phan/phan": "^5.0"
+    },
+    "suggest": {
+        "ext-mysqli": "Need for MySQL, MariaDB databases.",
+        "ext-sqlite3": "Need for SQLite databases.",
+        "ext-pgsql": "Need for PostgreSQL databases.",
+        "ext-bz2": "Need for Bzip2 compression.",
+        "ext-zip": "Need for Zip compression.",
+        "ext-zlib": "Need for Gzip compression."
+    },
+    "autoload": {
+        "psr-4": {
+            "amoracr\\backup\\": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}

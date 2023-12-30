@@ -1,0 +1,32 @@
+### PhpStorm ###
+.idea
+
+### NetBeans ###
+nbproject
+
+### Eclipse ###
+.buildpath
+.project
+.settings
+
+### VisualStudioCode ###
+.vscode
+*.code-workspace
+
+### SublimeText ###
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# windows thumbnail cache
+Thumbs.db
+
+# Mac DS_Store Files
+.DS_Store
+
+# Composer
+composer.lock
+composer.phar
+vendor
